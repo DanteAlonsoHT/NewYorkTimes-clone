@@ -1,0 +1,130 @@
+/* MAIN HEADER STYLES*/
+
+.mean-header {
+    position: fixed;
+    width: 100%;
+    height: 32px;
+    background-color: #FFF;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: solid #CCCB 1px;
+    z-index: 15;
+    vertical-align: middle;
+}
+
+nav div {
+    margin: 4px auto;
+}
+
+nav div a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    font-family: Times, serif;
+    font-weight: 900;
+    margin: auto 32px;
+}
+
+nav div a i {
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.bx {
+    font-size: 24px;
+    color: #222
+}
+
+.nav-items-left {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 8px;
+}
+
+.nav-items-left a {
+    margin: 0px 8px;
+}
+
+.content-nytimes-logo {
+    position: relative;
+    height: 16px;
+    width: 200px;
+}
+
+.nav-items-right {
+    float: right;
+}
+
+.nav-items-right a {
+    background-color: #567b95;
+    margin: 0px 2px;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+
+
+/*MAIN SECTION STYLES*/
+
+.container-article {
+    position: absolute;
+    margin-top: 128px;
+    padding: 4px 15%;
+    align-content: center;
+    text-align: center;
+}
+
+.article-header {
+    position: relative;
+    font-size: 42px;
+    text-align: left;
+}
+
+.sharing-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sharing-links ul li {
+    width: 32px;
+    text-decoration-style: none;
+    list-style-type: none;
+    float: left;
+}
+
+P {
+    font-size: large;
+    padding: 4px;
+    font-weight: 400;
+}
+
+.caption {
+    font-size: 16px;
+    text-align: left;
+}
+
+.page-note {
+    font-size: 14px;
+    text-align: left;
+}
+
+.author-content {
+    margin: 16px 0px;
+}
+
+.article-section {
+    margin: 64px 15%;
+    text-align: justify;
+}
