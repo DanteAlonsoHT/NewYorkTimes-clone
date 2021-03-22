@@ -1,10 +1,10 @@
-/* MAIN HEADER STYLES*/
+/*MAIN HEADER STYLES*/
 
 .mean-header {
   position: fixed;
   width: 100%;
   height: 32px;
-  background-color: #FFF;
+  background-color: #fff;
   z-index: 10;
 }
 
@@ -12,7 +12,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  border-bottom: solid #CCCB 1px;
+  border-bottom: solid #cccb 1px;
   z-index: 15;
   vertical-align: middle;
 }
@@ -39,7 +39,7 @@ nav div a i {
 
 .bx {
   font-size: 24px;
-  color: #222
+  color: #222;
 }
 
 .nav-items-left {
