@@ -1,4 +1,4 @@
-/*MAIN HEADER STYLES*/
+/* MAIN HEADER STYLES */
 
 .mean-header {
   position: fixed;
@@ -46,11 +46,11 @@ nav div a i {
   float: left;
   display: flex;
   justify-content: space-around;
-  margin: 0px 8px;
+  margin: 0 8px;
 }
 
 .nav-items-left a {
-  margin: 0px 8px;
+  margin: 0 8px;
 }
 
 .content-nytimes-logo {
@@ -65,12 +65,12 @@ nav div a i {
 
 .nav-items-right a {
   background-color: #567b95;
-  margin: 0px 2px;
+  margin: 0 2px;
   padding: 6px 8px;
   border-radius: 5px;
 }
 
-/*MAIN SECTION STYLES*/
+/* MAIN SECTION STYLES */
 
 .container-article {
   position: absolute;
@@ -98,7 +98,6 @@ nav div a i {
 
 .sharing-links ul li {
   width: 32px;
-  text-decoration-style: none;
   list-style-type: none;
   float: left;
 }
@@ -120,7 +119,7 @@ p {
 }
 
 .author-content {
-  margin: 16px 0px;
+  margin: 16px 0;
 }
 
 .article-section {
