@@ -1,8 +1,38 @@
+/* FOOTER */
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 9px;
+  border-top: 1px solid #ccc;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  list-style: none;
+  margin-left: -100px;
+}
+
+footer ul li {
+  padding: 0 10px;
+}
+
+footer ul li a {
+  color: #666;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
 /* MAIN HEADER STYLES */
 
 body header {
   position: fixed;
+  top: 0;
   background-color: #fff;
+  width: 100%;
+  z-index: 5;
 }
 
 nav {
@@ -82,6 +112,7 @@ nav div a {
   color: #fff !important;
 }
 
+
 /* MAIN SECTION STYLES */
 
 .container-article {
@@ -92,6 +123,7 @@ nav div a {
   justify-content: center;
   align-content: center;
   text-align: center;
+  z-index: 0;
 }
 
 /* Article title */
@@ -103,8 +135,7 @@ nav div a {
   max-width: 850px;
 }
 
-
-/* Logos to share the article*/
+/* Logos to share the article */
 
 .sharing-links {
   display: flex;
@@ -141,12 +172,10 @@ nav div a {
   padding: 4px;
 }
 
-
 /* Page notes and Images in Article */
 
 .container-header-image {
   margin: 0 auto;
-  padding: auto 0;
   width: 850px;
 }
 
@@ -158,7 +187,7 @@ p {
 
 .caption-pagenote-container {
   margin: 8px;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .caption {
@@ -191,13 +220,11 @@ p {
   font-size: 14px;
 }
 
-
 /* Author information */
 
 .author-content {
   margin: 32px 0;
 }
-
 
 /* Sign up section */
 
@@ -210,7 +237,7 @@ p {
   font-size: 16px;
   color: #222;
   padding-right: 25px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 .signUp-button {
@@ -220,7 +247,6 @@ p {
   background-color: #fff;
   font-weight: bold;
 }
-
 
 /* Advertesing */
 
@@ -241,7 +267,6 @@ p {
   background-color: #eee;
   color: #bbb;
 }
-
 
 /* Text article */
 
@@ -275,7 +300,6 @@ p {
   color: #555;
 }
 
-
 /* ASIDE PART */
 
 aside {
@@ -308,7 +332,6 @@ aside {
   width: 64px;
 }
 
-
 /* Suscription section */
 
 .suscription-content {
@@ -321,9 +344,6 @@ aside {
 .suscription-content p {
   font-size: 14px;
   font-weight: 700;
-}
-
-.suscription-content p {
   text-decoration: none;
 }
 
@@ -336,7 +356,6 @@ a:-webkit-any-link {
   margin: 22px auto;
   max-width: 70px;
 }
-
 
 /* The theory of inflation section  */
 
@@ -395,7 +414,6 @@ a:-webkit-any-link {
   font-size: 14px;
 }
 
-
 /* Youtube Video */
 
 iframe {
@@ -405,7 +423,6 @@ iframe {
 figcaption {
   color: #888;
 }
-
 
 /* Read comments */
 
@@ -433,7 +450,6 @@ figcaption {
   margin: 0 8px;
 }
 
-
 /* Nav Footer section */
 
 .nav-footer {
@@ -447,7 +463,6 @@ figcaption {
 }
 
 .content-nav-footer-nytimes-logo a {
-  transition: scale(0.5);
   width: 700px;
   float: left;
   margin-left: -150px;
@@ -463,7 +478,6 @@ figcaption {
   margin-top: 1px;
   display: flex;
   justify-content: space-evenly;
-  align-items: top;
 }
 
 .nav-footer div section h3 {
@@ -481,7 +495,7 @@ figcaption {
   margin: 0;
   width: 200px;
   color: #444;
-  padding-inline-start: 0px !important;
+  padding-inline-start: 0 !important;
 }
 
 .nav-footer div ul li a {
@@ -494,32 +508,4 @@ figcaption {
 .nav-footer div ul li a svg {
   width: 16px;
   height: 16px;
-}
-
-
-/* FOOTER */
-
-footer {
-  width: 1200px;
-  margin: 0 auto;
-  padding-top: 9px;
-  border-top: 1px solid #ccc;
-}
-
-footer ul {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 35px;
-  list-style: none;
-  margin-left: -100px;
-}
-
-footer ul li {
-  padding: 0 10px;
-}
-
-footer ul li a {
-  color: #666;
-  font-size: 12px;
-  font-family: sans-serif;
 }
