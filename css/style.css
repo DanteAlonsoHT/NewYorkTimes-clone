@@ -1,4 +1,4 @@
-/* MAIN HEADER STYLES */
+/* HEADER and NAV MAIN STYLES */
 
 body header {
   position: fixed;
@@ -30,6 +30,35 @@ nav div a {
   font-weight: 900;
   margin: auto 32px;
 }
+
+/* FOOTER */
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 9px;
+  border-top: 1px solid #ccc;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  list-style: none;
+  margin-left: -100px;
+}
+
+footer ul li {
+  padding: 0 10px;
+}
+
+footer ul li a {
+  color: #666;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+/* ELEMENTS in HEADER and NAV MAIN STYLES */
 
 .bx::before {
   position: relative;
@@ -83,33 +112,6 @@ nav div a {
   border-radius: 3px;
   font-size: 10px;
   color: #fff !important;
-}
-
-/* FOOTER */
-
-footer {
-  width: 1200px;
-  margin: 0 auto;
-  padding-top: 9px;
-  border-top: 1px solid #ccc;
-}
-
-footer ul {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 35px;
-  list-style: none;
-  margin-left: -100px;
-}
-
-footer ul li {
-  padding: 0 10px;
-}
-
-footer ul li a {
-  color: #666;
-  font-size: 12px;
-  font-family: sans-serif;
 }
 
 /* MAIN SECTION STYLES */
