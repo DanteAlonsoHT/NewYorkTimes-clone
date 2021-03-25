@@ -31,7 +31,6 @@ nav div a {
   margin: auto 32px;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -58,7 +57,6 @@ footer ul li a {
   font-size: 12px;
   font-family: sans-serif;
 }
-
 
 /* ELEMENTS in HEADER and NAV MAIN STYLES */
 
@@ -120,7 +118,6 @@ footer ul li a {
   color: #fff !important;
 }
 
-
 /* MAIN SECTION STYLES */
 
 .container-article {
@@ -134,7 +131,6 @@ footer ul li a {
   z-index: 0;
 }
 
-
 /* Article title */
 
 .article-header {
@@ -143,7 +139,6 @@ footer ul li a {
   text-align: left;
   max-width: 850px;
 }
-
 
 /* Logos to share the article */
 
@@ -181,7 +176,6 @@ footer ul li a {
   border-radius: 15px;
   padding: 4px;
 }
-
 
 /* Page notes and Images in Article */
 
@@ -231,13 +225,11 @@ p {
   font-size: 14px;
 }
 
-
 /* Author information */
 
 .author-content {
   margin: 32px 0;
 }
-
 
 /* Sign up section */
 
@@ -260,7 +252,6 @@ p {
   background-color: #fff;
   font-weight: bold;
 }
-
 
 /* Advertesing */
 
@@ -291,7 +282,6 @@ p {
   font-size: 10px;
   vertical-align: middle;
 }
-
 
 /* Text article */
 
@@ -325,7 +315,6 @@ p {
   color: #555;
 }
 
-
 /* ASIDE PART */
 
 aside {
@@ -358,7 +347,6 @@ aside {
   width: 64px;
 }
 
-
 /* Suscription section */
 
 .suscription-content {
@@ -383,7 +371,6 @@ a:-webkit-any-link {
   margin: 22px auto;
   max-width: 70px;
 }
-
 
 /* The theory of inflation section  */
 
@@ -442,7 +429,6 @@ a:-webkit-any-link {
   font-size: 14px;
 }
 
-
 /* Youtube Video */
 
 iframe {
@@ -452,7 +438,6 @@ iframe {
 figcaption {
   color: #888;
 }
-
 
 /* Read comments */
 
@@ -481,7 +466,6 @@ figcaption {
   margin: 0 8px;
 }
 
-
 /* Recomended Articles Section GRID */
 
 .articlesRecomends-grid {
@@ -495,14 +479,12 @@ figcaption {
   height: 900px;
 }
 
-
 /* First Part | ROW ALL  | COLUMN 5 */
 
 .articlesRecomends-mostPopular {
   grid-area: 1 / 4 / 3 / 5;
   font-family: sans-serif;
 }
-
 
 /* First Part | ROW 1  | COLUMNS 1 -> 4  */
 
@@ -548,7 +530,6 @@ figcaption {
   justify-content: space-between;
 }
 
-
 /* Second Part | ROW 1  | COLUMNS 1 -> 4 */
 
 .suggestedNewsletters-card {
@@ -580,7 +561,6 @@ figcaption {
   position: relative;
 }
 
-
 /* First Part | ROW 2  | COLUMNS 1 -> 4 */
 
 .articlesRecomends-moreInSpace {
@@ -597,7 +577,6 @@ figcaption {
   grid-area: 1 / 1 / 2 / 2;
   margin: 16px 0;
 }
-
 
 /* Second Part | ROW 2  | COLUMNS 1 -> 4 */
 
@@ -631,10 +610,9 @@ figcaption {
 
 .moreInSpace-card div p {
   color: #777;
-  font: 12px im !important;
+  font: 12px !important;
   margin-top: 4px;
 }
-
 
 /* Nav Footer Section */
 
