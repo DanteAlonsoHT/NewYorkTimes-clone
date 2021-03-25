@@ -31,6 +31,7 @@ nav div a {
   margin: auto 32px;
 }
 
+
 /* FOOTER */
 
 footer {
@@ -57,6 +58,7 @@ footer ul li a {
   font-size: 12px;
   font-family: sans-serif;
 }
+
 
 /* ELEMENTS in HEADER and NAV MAIN STYLES */
 
@@ -118,6 +120,7 @@ footer ul li a {
   color: #fff !important;
 }
 
+
 /* MAIN SECTION STYLES */
 
 .container-article {
@@ -131,6 +134,7 @@ footer ul li a {
   z-index: 0;
 }
 
+
 /* Article title */
 
 .article-header {
@@ -139,6 +143,7 @@ footer ul li a {
   text-align: left;
   max-width: 850px;
 }
+
 
 /* Logos to share the article */
 
@@ -176,6 +181,7 @@ footer ul li a {
   border-radius: 15px;
   padding: 4px;
 }
+
 
 /* Page notes and Images in Article */
 
@@ -225,11 +231,13 @@ p {
   font-size: 14px;
 }
 
+
 /* Author information */
 
 .author-content {
   margin: 32px 0;
 }
+
 
 /* Sign up section */
 
@@ -252,6 +260,7 @@ p {
   background-color: #fff;
   font-weight: bold;
 }
+
 
 /* Advertesing */
 
@@ -282,6 +291,7 @@ p {
   font-size: 10px;
   vertical-align: middle;
 }
+
 
 /* Text article */
 
@@ -315,6 +325,7 @@ p {
   color: #555;
 }
 
+
 /* ASIDE PART */
 
 aside {
@@ -347,6 +358,7 @@ aside {
   width: 64px;
 }
 
+
 /* Suscription section */
 
 .suscription-content {
@@ -371,6 +383,7 @@ a:-webkit-any-link {
   margin: 22px auto;
   max-width: 70px;
 }
+
 
 /* The theory of inflation section  */
 
@@ -429,6 +442,7 @@ a:-webkit-any-link {
   font-size: 14px;
 }
 
+
 /* Youtube Video */
 
 iframe {
@@ -438,6 +452,7 @@ iframe {
 figcaption {
   color: #888;
 }
+
 
 /* Read comments */
 
@@ -466,7 +481,162 @@ figcaption {
   margin: 0 8px;
 }
 
-/* Nav Footer section */
+
+/* Recomended Articles Section GRID */
+
+.articlesRecomends-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 16px;
+  margin: -16px auto;
+  padding: 0 10%;
+  height: 900px;
+}
+
+
+/* First Part | ROW ALL  | COLUMN 5 */
+
+.articlesRecomends-mostPopular {
+  grid-area: 1 / 4 / 3 / 5;
+  font-family: sans-serif;
+}
+
+
+/* First Part | ROW 1  | COLUMNS 1 -> 4  */
+
+.articlesRecomends-suggestedNewsletters {
+  grid-area: 1 / 1 / 2 / 4;
+  font-family: sans-serif;
+}
+
+.suggestedNewsletters-header {
+  grid-area: 1 / 1 / 2 / 4;
+  margin: 16px 0;
+}
+
+.suggestedNewsletters-header-h4 {
+  display: inline-block;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.suggestedNewsletters-header-empty {
+  display: inline-block;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.suggestedNewsletters-header-empty p {
+  color: #fff;
+  height: 24px;
+}
+
+.suggestedNewsletters-header-link {
+  display: block;
+  grid-area: 1 / 3 / 2 / 4;
+  float: right;
+  padding-right: 8px;
+}
+
+.suggestedNewsletters-header-link a {
+  color: #444 !important;
+}
+
+.suggestedNewsletters-cointainer {
+  grid-area: 1 / 1 / 2 / 4;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Second Part | ROW 1  | COLUMNS 1 -> 4 */
+
+.suggestedNewsletters-card {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  padding: 16px 8px;
+  border: #ddd 1px solid;
+}
+
+.suggestedNewsletters-card span {
+  font-size: 10px;
+  color: #777;
+}
+
+.suggestedNewsletters-P {
+  display: block;
+  font-size: 15px;
+  height: 110px;
+}
+
+.suggestedNewsletters-card h6 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestedNewsletters-card a {
+  position: relative;
+}
+
+
+/* First Part | ROW 2  | COLUMNS 1 -> 4 */
+
+.articlesRecomends-moreInSpace {
+  grid-area: 2 / 1 / 3 / 4;
+  font-family: sans-serif;
+}
+
+.moreInSpace-header {
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+.moreInSpace-header-h4 {
+  display: block;
+  grid-area: 1 / 1 / 2 / 2;
+  margin: 16px 0;
+}
+
+
+/* Second Part | ROW 2  | COLUMNS 1 -> 4 */
+
+.suggestedNewsletters-cointainer {
+  grid-area: 2 / 1 / 3 / 4;
+  display: flex;
+  justify-content: space-around;
+}
+
+.moreInSpace-card {
+  display: inline-block;
+  flex-direction: column;
+  width: 32%;
+  padding: 16px 8px;
+  border: #ddd 1px solid;
+  height: 320px;
+}
+
+.moreInSpace-card div span {
+  display: block;
+  float: right;
+  color: #777;
+  font-size: 12px;
+}
+
+.moreInSpace-card div a {
+  display: block;
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.moreInSpace-card div p {
+  color: #777;
+  font: 12px im !important;
+  margin-top: 4px;
+}
+
+
+/* Nav Footer Section */
 
 .nav-footer {
   width: 1200px;
