@@ -580,10 +580,10 @@ figcaption {
 
 /* Second Part | ROW 2  | COLUMNS 1 -> 4 */
 
-.suggestedNewsletters-cointainer {
+.moreInSpace-cointainer {
   grid-area: 2 / 1 / 3 / 4;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .moreInSpace-card {
@@ -602,7 +602,7 @@ figcaption {
   font-size: 12px;
 }
 
-.moreInSpace-card div a {
+.moreInSpace-link {
   display: block;
   margin-top: 24px;
   font-size: 18px;
@@ -610,7 +610,7 @@ figcaption {
 
 .moreInSpace-card div p {
   color: #777;
-  font: 12px !important;
+  font-size: 12px !important;
   margin-top: 4px;
 }
 
