@@ -18,7 +18,7 @@ Flexbox, GRID and Float were used.
 
 ## Live Demo 👀
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://dantealonsoht.github.io/NewYorkTimes-clone/)
 
 
 ## Getting Started
