@@ -1,543 +1,527 @@
 /* HEADER and NAV MAIN STYLES */
 
 body header {
-    position: fixed;
-    top: 0;
-    background-color: #fff;
-    width: 100%;
-    z-index: 5;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  z-index: 5;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    border-bottom: solid #cccb 1px;
-    min-height: 48px;
-    background-color: #fff;
-    vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: solid #cccb 1px;
+  min-height: 48px;
+  background-color: #fff;
+  vertical-align: middle;
 }
 
 nav div {
-    margin: 4px auto;
+  margin: 4px auto;
 }
 
 nav div a {
-    font-size: 12px;
-    color: black;
-    text-decoration: none;
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 900;
-    margin: auto 32px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900;
+  margin: auto 32px;
 }
-
 
 /* FOOTER */
 
 footer {
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 9px;
-    border-top: 1px solid #ccc;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 9px;
+  border-top: 1px solid #ccc;
 }
 
 footer ul {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 35px;
-    list-style: none;
-    margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  list-style: none;
+  margin-left: -100px;
 }
 
 footer ul li {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 footer ul li a {
-    color: #666;
-    font-size: 12px;
-    font-family: sans-serif;
+  color: #666;
+  font-size: 12px;
+  font-family: sans-serif;
 }
-
 
 /* ELEMENTS in HEADER and NAV MAIN STYLES */
 
 .bx::before {
-    position: relative;
-    display: flex;
-    vertical-align: middle;
-    width: 16px;
-    height: 16px;
+  position: relative;
+  display: flex;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
 }
 
 .bx {
-    font-size: 24px;
-    color: #222;
+  font-size: 24px;
+  color: #222;
 }
 
 .nav-items-left {
-    float: left;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 8px;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 8px;
 }
 
 .nav-items-left a {
-    margin: auto 8px;
+  margin: auto 8px;
 }
 
 .nav-subjectArticle {
-    color: #111 !important;
+  color: #111 !important;
 }
 
 .content-nytimes-logo {
-    position: relative;
-    height: 16px;
-    width: 200px;
+  position: relative;
+  height: 16px;
+  width: 200px;
 }
 
 .nytimes-logo {
-    display: inline-block;
-    min-height: 48px;
+  display: inline-block;
+  min-height: 48px;
 }
 
 .nav-items-right {
-    float: right;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 8px;
-    padding: 8px 0;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 8px;
+  padding: 8px 0;
 }
 
 .nav-items-right a {
-    background-color: #567b95;
-    border: 1px solid #326891;
-    min-height: 32px;
-    margin: 0 4px;
-    padding: 8px 8px;
-    border-radius: 3px;
-    font-size: 10px;
-    color: #fff !important;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  min-height: 32px;
+  margin: 0 4px;
+  padding: 8px 8px;
+  border-radius: 3px;
+  font-size: 10px;
+  color: #fff !important;
 }
-
 
 /* MAIN SECTION STYLES */
 
 .container-article {
-    position: relative;
-    display: flex;
-    margin-top: 400px;
-    padding: 4px;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    z-index: 0;
+  position: relative;
+  display: flex;
+  margin-top: 400px;
+  padding: 4px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  z-index: 0;
 }
-
 
 /* Article title */
 
 .article-header {
-    position: relative;
-    font-size: 36px;
-    text-align: left;
-    max-width: 850px;
+  position: relative;
+  font-size: 36px;
+  text-align: left;
+  max-width: 850px;
 }
-
 
 /* Logos to share the article */
 
 .sharing-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .sharing-links ul li {
-    margin: 0 6px;
-    width: 32px;
-    list-style-type: none;
-    float: left;
+  margin: 0 6px;
+  width: 32px;
+  list-style-type: none;
+  float: left;
 }
 
 .share-item-svg {
-    display: inline-block;
-    min-height: 28px;
-    min-width: 28px;
-    background-color: #ddd;
-    border-radius: 15px;
-    padding: 7px;
+  display: inline-block;
+  min-height: 28px;
+  min-width: 28px;
+  background-color: #ddd;
+  border-radius: 15px;
+  padding: 7px;
 }
 
 .share-item-svg-wa {
-    display: inline-block;
-    min-height: 28px;
-    min-width: 28px;
-    background-color: #ddd;
-    border-radius: 15px;
-    padding: 4px;
+  display: inline-block;
+  min-height: 28px;
+  min-width: 28px;
+  background-color: #ddd;
+  border-radius: 15px;
+  padding: 4px;
 }
-
 
 /* Page notes and Images in Article */
 
 .container-header-image {
-    margin: 0 auto;
-    width: 850px;
+  margin: 0 auto;
+  width: 850px;
 }
 
 p {
-    font-size: 20px;
-    font-weight: 500;
-    color: #222;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
 }
 
 .caption-pagenote-container {
-    margin: 8px;
-    font-size: 0;
+  margin: 8px;
+  font-size: 0;
 }
 
 .caption {
-    display: inline;
-    font-size: 18px;
-    text-align: left;
-    font-weight: 400;
-    color: #777;
+  display: inline;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 400;
+  color: #777;
 }
 
 .page-note {
-    display: inline;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: left;
-    color: #999;
-    margin: 0 6px;
+  display: inline;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  color: #999;
+  margin: 0 6px;
 }
 
 .figure-images {
-    margin: 64px -124px;
+  margin: 64px -124px;
 }
 
 .main-image {
-    margin: 0 auto;
-    max-width: 800px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .main-image-caption {
-    font-size: 14px;
+  font-size: 14px;
 }
-
 
 /* Author information */
 
 .author-content {
-    margin: 32px 0;
+  margin: 32px 0;
 }
-
 
 /* Sign up section */
 
 .signUp-conteiner {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .signUp-text {
-    font-size: 16px;
-    color: #222;
-    padding-right: 25px;
-    font-weight: 600;
+  font-size: 16px;
+  color: #222;
+  padding-right: 25px;
+  font-weight: 600;
 }
 
 .signUp-button {
-    min-width: 100px;
-    height: 36px;
-    border: #000 1px solid;
-    background-color: #fff;
-    font-weight: bold;
+  min-width: 100px;
+  height: 36px;
+  border: #000 1px solid;
+  background-color: #fff;
+  font-weight: bold;
 }
-
 
 /* Advertesing */
 
 #ad-container-first {
-    position: absolute;
-    top: 18px;
-    z-index: -1;
+  position: absolute;
+  top: 18px;
+  z-index: -1;
 }
 
 .ad-container {
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-    min-height: 300px;
-    text-align: center;
-    margin-top: 32px;
-    left: 0;
-    background-color: #eee;
-    color: #bbb;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+  margin-top: 32px;
+  left: 0;
+  background-color: #eee;
+  color: #bbb;
 }
 
 .ad-container p {
-    position: absolute;
-    top: 64px;
-    left: 48%;
-    color: #444;
-    font-family: sans-serif;
-    font-size: 10px;
-    vertical-align: middle;
+  position: absolute;
+  top: 64px;
+  left: 48%;
+  color: #444;
+  font-family: sans-serif;
+  font-size: 10px;
+  vertical-align: middle;
 }
-
 
 /* Text article */
 
 .article-body_wrapper {
-    margin-top: 400px;
+  margin-top: 400px;
 }
 
 .article-section {
-    margin: 72px auto;
-    text-align: justify;
-    max-width: 600px;
+  margin: 72px auto;
+  text-align: justify;
+  max-width: 600px;
 }
 
 .article-body {
-    margin-top: 16px;
-    justify-content: center;
+  margin-top: 16px;
+  justify-content: center;
 }
 
 .content-article {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .subtitle-article {
-    font-weight: 700;
-    font-family: sans-serif;
+  font-weight: 700;
+  font-family: sans-serif;
 }
 
 .article-spanVersion {
-    margin-top: 16px;
-    font-size: 14px;
-    color: #555;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #555;
 }
-
 
 /* ASIDE PART */
 
 aside {
-    position: absolute;
-    margin-top: 850px;
-    right: 10%;
+  position: absolute;
+  margin-top: 850px;
+  right: 10%;
 }
 
 .aside-container {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
 }
 
 .aside-content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .aside-span {
-    font-size: 12px;
-    text-align: left;
-    font-weight: 600;
-    color: #555;
-    vertical-align: middle;
-    margin-left: 8px;
+  font-size: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #555;
+  vertical-align: middle;
+  margin-left: 8px;
 }
 
 .asideSpan-image {
-    width: 64px;
+  width: 64px;
 }
-
 
 /* Suscription section */
 
 .suscription-content {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    font-family: sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: sans-serif;
 }
 
 .suscription-content p {
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 a:-webkit-any-link {
-    text-decoration: none;
-    color: #326891;
+  text-decoration: none;
+  color: #326891;
 }
 
 .sucription-lineSeparator {
-    margin: 22px auto;
-    max-width: 70px;
+  margin: 22px auto;
+  max-width: 70px;
 }
-
 
 /* The theory of inflation section  */
 
 .theoryOfInflation-container {
-    margin: 0 -124px;
+  margin: 0 -124px;
 }
 
 .theoryOfInflation-container h5 {
-    font-size: 20px;
-    margin: 0;
-    padding-top: 20px;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 20px;
 }
 
 .theoryOfInflation-container p {
-    font-size: 14px;
-    margin: 0;
-    color: #555;
+  font-size: 14px;
+  margin: 0;
+  color: #555;
 }
 
 .theoryOfInflation-container p b {
-    font-size: 14px;
-    margin: 0;
-    margin-right: 4px;
-    color: #111;
+  font-size: 14px;
+  margin: 0;
+  margin-right: 4px;
+  color: #111;
 }
 
 .theoryOfInflation-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 4px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 4px;
 }
 
 .theoryOfInflation-box {
-    display: inline;
-    flex-direction: column;
-    text-align: center;
-    width: 228px;
+  display: inline;
+  flex-direction: column;
+  text-align: center;
+  width: 228px;
 }
 
 .theoryOfInflation-text {
-    display: inline;
-    text-align: justify;
+  display: inline;
+  text-align: justify;
 }
 
 .theoryOfInflation-line {
-    display: inline-block;
-    margin-top: 64px;
-    background-color: black;
-    padding-left: 65px;
-    border-width: 2px;
+  display: inline-block;
+  margin-top: 64px;
+  background-color: black;
+  padding-left: 65px;
+  border-width: 2px;
 }
 
 .theoryOfInflation-pageNote {
-    font-size: 14px;
+  font-size: 14px;
 }
-
 
 /* Youtube Video */
 
 iframe {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 figcaption {
-    color: #888;
+  color: #888;
 }
-
 
 /* Read comments */
 
 .article-readComments-conteiner {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .readComments-button {
-    min-width: 330px;
-    height: 30px;
-    background-color: #567b95;
-    border: 1px solid #326891;
-    min-height: 32px;
-    padding: 4px;
-    border-radius: 3px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff !important;
-    font-family: sans-serif;
+  min-width: 330px;
+  height: 30px;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  min-height: 32px;
+  padding: 4px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff !important;
+  font-family: sans-serif;
 }
 
 .readComments-logos {
-    margin: 0 8px;
+  margin: 0 8px;
 }
-
 
 /* Nav Footer section */
 
 .nav-footer {
-    width: 1200px;
-    margin: 0 auto;
-    padding-bottom: 12px;
-    display: flex;
-    flex-direction: column;
-    border-top: 2px solid #e2e2e2;
-    text-decoration: none;
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #e2e2e2;
+  text-decoration: none;
 }
 
 .content-nav-footer-nytimes-logo a {
-    width: 700px;
-    float: left;
-    margin-left: -230px;
+  width: 700px;
+  float: left;
+  margin-left: -230px;
 }
 
 .nav-footer-buttomGoToHome {
-    display: inline-block;
-    height: 46px;
-    margin: 0;
+  display: inline-block;
+  height: 46px;
+  margin: 0;
 }
 
 .nav-footer div {
-    margin-top: 1px;
-    display: flex;
-    justify-content: space-evenly;
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-footer div section h3 {
-    padding-top: 16px;
-    margin: 0 auto;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 13px;
-    width: 200px;
-    color: #444;
+  padding-top: 16px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  width: 200px;
+  color: #444;
 }
 
 .nav-footer div ul {
-    list-style: none;
-    margin: 0;
-    width: 200px;
-    color: #444;
-    padding-inline-start: 0 !important;
+  list-style: none;
+  margin: 0;
+  width: 200px;
+  color: #444;
+  padding-inline-start: 0 !important;
 }
 
 .nav-footer div ul li a {
-    margin: 0;
-    font-size: 14px;
-    color: #444;
-    font-weight: 500;
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
 }
 
 .nav-footer div ul li a svg {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
 }
