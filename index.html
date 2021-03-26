@@ -8,6 +8,7 @@
     <title>NewYorkTimes-Clone</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style-form.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -666,6 +667,30 @@
             </a>
             <a href="#">Go to Home Page »</a>
         </div>
+        <form class="register-form">
+            <div class="register-form-container">
+                <label>Username</label>
+                <input input id="username" type="text" class="input">
+                <label>Email Address</label>
+                <input input id="username" type="email" class="input">
+                <label>Add a comment</label>
+                <textarea input id="comments" type="text" class="input" rows="4" cols="50"></textarea>
+                <label>What is your overall opinion about this article...</label>
+                <div>
+                    <input id="option-positive" type="radio" name="tab" class="radio-option">
+                    <label class="tab">Positive</label>
+                    <input id="option-neutral" type="radio" name="tab" class="radio-option">
+                    <label class="tab">Neutral</label>
+                    <input id="option-negative" type="radio" name="tab" class="radio-option">
+                    <label class="tab">Negative</label>
+                </div>
+                <div>
+                    <input id="check" type="checkbox" class="check" checked>
+                    <label for="check"><span class="icon"></span> I want to subscribe to the newsletter</label>
+                </div>
+                <button type="submit" id="submit-button" value="submit">Submit</button>
+            </div>
+        </form>
         <div>
             <section>
                 <h3>NEWS</h3>
